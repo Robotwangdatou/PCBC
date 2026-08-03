@@ -1,12 +1,7 @@
 # Litho-LSIM 2.0 README
 ## Project Overview
-This repository implements **Litho-LSIM**, a residual interaction enhancement classification model combining Logistic Regression (LR) and Delaunay triangulation-based Local Residual Surface Interaction Module (LSIM). The model is designed for imbalanced credit/bankruptcy binary classification tasks, with built-in interpretability visualization for pairwise feature interactions.
-
-Core mechanism:
-1. Train baseline balanced Logistic Regression to obtain prediction residuals;
-2. Nested cross-validation selects the optimal pairwise feature combination with highest AUC gain;
-3. Construct Delaunay triangulation on the selected two features to fit weighted local residual surfaces;
-4. Fuse LR logit output with LSIM residual correction term to boost classification performance on minority samples (default/bankruptcy).
+This repository contains the full open-source implementation of Lithography Mask Local Simplex Interaction (Litho-LSIM), the physics-constrained decision support architecture proposed in our paper submitted to Decision Support Systems.
+Litho-LSIM integrates a globally regularized logistic regression baseline with a Delaunay triangulation-based local simplex residual correction module (LSIM). Rooted in semiconductor photolithography confinement principles, this framework targets imbalanced credit risk and corporate bankruptcy binary classification tasks. It embeds native auditable geometric constraints and out-of-the-box visualization pipelines for interpretable pairwise feature risk interactions, fully complying with Basel III and EU AI Act transparency requirements for financial decision-making systems.
 
 ## File Structure
 ```
