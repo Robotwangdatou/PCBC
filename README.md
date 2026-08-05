@@ -1,4 +1,5 @@
 Partition-Constrained Barycentric Classifier (PCBC) Project README
+
 Project Overview
 PCBC (Partition-Constrained Barycentric Classifier) is a geometry-driven interpretable classification model designed for high-stakes imbalanced credit assessment tasks. It addresses core pain points in traditional credit risk modeling, including the precision-recall tradeoff, insufficient model interpretability, and lack of regulatory compliance. Built on Delaunay simplex partitioning, PCBC adopts a global-linear/local-geometric dual-layer architecture, implementing residual local calibration through hard partition constraints. It balances prediction accuracy, inference efficiency, and audit traceability, fully complying with regulatory requirements such as Basel III and the EU AI Act.
 Core Features & Innovations
