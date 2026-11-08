@@ -4,7 +4,7 @@
 
 Code and data for the manuscript *"Hard-boundary hierarchical serial re-centering for auditable credit scoring"* (Wei Wang and Li Luo, Business School, Guilin Tourism University), submitted to **PeerJ Computer Science** as an **AI Application** article.
 
-**Permanent archive:** https://doi.org/10.5281/zenodo.24035829
+
 
 ## 2. Description
 
